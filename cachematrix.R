@@ -1,7 +1,7 @@
 ## Combination of these two functions aim to accelerate calculation of the inverse of a
 ## matrix via "Caching" mechanism, i.e. if the inverse of the matrix has been calculated 
 ## before (and the matrix has not changed), it's much faster to just fetch the stored results, 
-##  rather than re-calculating it. The speed up will be significant for large size matrices.
+## rather than re-calculating it. The speed up will be significant for large size matrices. 
 
 
 ## Function "makeCacheMatrix" gets a matrix as input, and is able to set the elements of 
